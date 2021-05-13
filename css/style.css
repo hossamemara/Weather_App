@@ -1,0 +1,252 @@
+/* ___________________  General Properties Start  _____________________*/
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* _________ Width Clases Start Here _________  */
+
+.w-5 {
+    width: 5%;
+    margin: auto;
+}
+
+.w-10 {
+    width: 10%;
+    margin: auto;
+}
+
+.w-15 {
+    width: 15%;
+    margin: auto;
+}
+
+.w-20 {
+    width: 20%;
+    margin: auto;
+}
+
+.w-30 {
+    width: 30%;
+    margin: auto;
+}
+
+.w-35 {
+    width: 35%;
+    margin: auto;
+}
+
+.w-40 {
+    width: 40%;
+    margin: auto;
+}
+
+.w-45 {
+    width: 45%;
+    margin: auto;
+}
+
+.w-55 {
+    width: 55%;
+    margin: auto;
+}
+
+.w-60 {
+    width: 60%;
+    margin: auto;
+}
+
+.w-65 {
+    width: 65%;
+    margin: auto;
+}
+
+.w-70 {
+    width: 70%;
+    margin: auto;
+}
+
+.w-80 {
+    width: 80%;
+    margin: auto;
+}
+
+.w-85 {
+    width: 85%;
+    margin: auto;
+}
+
+.w-90 {
+    width: 90%;
+    margin: auto;
+}
+
+.w-95 {
+    width: 95%;
+    margin: auto;
+}
+
+/* _________ Width Clases End Here _________ */
+
+
+.weather-data
+{
+    background-image: url(https://routeweather.netlify.app/images/banner.png);
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+
+.btn
+{
+    top:15px;
+    right: 15.5%;
+    border-radius: 25%;
+}
+
+#day1-deg-info
+{
+    font-size: 75px;
+}
+#day1-condition-icon-info
+{
+    width: 100px;
+    height: 100px;
+}
+.main1
+{
+    background-color: #6ea2cc;
+   
+}
+.content1
+
+{
+    background-color: #b7bcd8;
+
+}
+
+.main2
+
+{
+    background-color: #1b4355;
+
+}
+.content2
+{
+    background-color:  #25262e;
+   
+}
+.weather2
+{
+
+    background-color: #25262e;
+}
+
+.main3
+
+{
+    background-color: #93cde4;
+
+}
+.content3
+{
+    background-color:  #434552;
+   
+}
+
+.weather3
+{
+
+    background-color: #434552;
+}
+
+.clock
+{
+    font-size: 25px;
+}
+#home-url
+{
+
+    color: #09c;
+
+}
+.navbar-nav .nav-item .nav-link
+{
+
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link:hover
+{
+
+    color: #09c;
+    border: #09c 2px groove;
+    border-radius: 20%;
+    transition: all 0.5s ease-in-out;
+}
+
+.social-media{
+
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 20px;
+      }
+.social{
+      
+    
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    transition: 0.5s all ease-in-out;
+    padding: 5px;
+}
+.social-media .social:hover {
+
+    border: 2px solid #0178FF;
+    background-color: #0178FF;
+    transition: 0.5s all ease-in-out;
+    
+  }
+  
+  .social-media a .fab:hover {
+
+
+    color: #fff !important;
+  }
+
+  footer
+  {
+      background-color:#272936 ;
+    
+  }
+
+ .bg-black
+ {
+     background-color: black;
+ }
+
+
+
+ #loader
+{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 63, 122);
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#loader i
+{
+   color: rgb(10, 199, 233);
+}
+body
+{
+    overflow: hidden;
+}
