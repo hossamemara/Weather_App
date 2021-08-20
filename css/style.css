@@ -67,39 +67,28 @@
 {
 
     color: #09c;
-    border: #09c 2px groove;
-    border-radius: 20%;
-    transition: all 0.5s ease-in-out;
+    border-bottom: #09c 2px groove;
+    border-radius: 10%;
+    transition: all 0.3s ease-in-out;
 }
 
-.social-media{
-
-    margin-top: 10px;
-    padding: 5px;
-    font-size: 20px;
+      .social-media i
+      {
+        padding: 5px;
+        font-size: 35px;
+      text-align: center;
       }
-.social{
-      
+      .social-media i:hover
+{
+
+    color: whitesmoke;
+    transition: 0.3s all ease-in-out;
     
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    transition: 0.5s all ease-in-out;
-    padding: 5px;
 }
-.social-media .social:hover {
-
-    border: 2px solid #0178FF;
-    background-color: #0178FF;
-    transition: 0.5s all ease-in-out;
-    
-  }
   
-  .social-media a .fab:hover {
 
 
-    color: #fff !important;
-  }
+  
 
   footer
   {
